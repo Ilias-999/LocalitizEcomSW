@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Localitiz
+{% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+    <br>
+    <br>
+    <h1 class="text-center product_title">
+        Localitiz Thank You for your order !
+    </h1>
+    <br>
+    <br>
+    <p>Your order number is:<b>{{ customer_order.id }}</b></p>
+    <br>
+    <p>
+        We have received your order and will beging precessing right away.
+    </p>
+</div>
+
+{% endblock %}
